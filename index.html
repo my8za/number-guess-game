@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>number-guess-game</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./main.js"></script>
 </head>
 <body>
-  
+  <div class="container">
+    <h1 class="title">Guess the Number</h1>
+    <div id="result-area" class="result-text">숫자를 맞춰보세요</div>
+    <div id="chance-area">남은 찬스 : 5번</div>
+    <input type="number" id="user-input" class="input-style" />
+    <button id="play-btn">Go !</button>
+  </div>
+  <button id="reset-btn">Reset</button>
 </body>
 </html>
